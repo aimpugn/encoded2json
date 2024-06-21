@@ -1,0 +1,15 @@
+[package]
+name = "encoded2json"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json ={ version = "1.0.115", features = ["preserve_order"] }
+serde_urlencoded = "0.7.1"
+url = "2.5.0"
+encoding_rs = "0.8.33"
+percent-encoding = "2.3.1"
+clap = "4.5.4"
